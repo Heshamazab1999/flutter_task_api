@@ -6,4 +6,5 @@ class Images {
   static const String location = 'assets/images/location.png';
   static const String space = 'assets/images/space.png';
   static const String bed = 'assets/images/bed.png';
+  static const String welcome = 'assets/images/welcome.json';
 }

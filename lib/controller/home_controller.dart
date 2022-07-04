@@ -18,4 +18,5 @@ class HomeController extends BaseController {
     getRecentEstates.value = (await _homeServices.getRecentEstates())!;
     setSate(ViewState.idle);
   }
+
 }

@@ -26,10 +26,13 @@ class HomeScreen extends StatelessWidget {
             SliverToBoxAdapter(
                 child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                FixedButton(text: "للبيع"),
-                FixedButton(text: "للايجار"),
-                FixedButton(text: "حميع العقارات"),
+              children: [
+                FixedButton(
+                  text: "للبيع",
+                  onPressed: () {},
+                ),
+                FixedButton(text: "للايجار", onPressed: () {}),
+                FixedButton(text: "حميع العقارات", onPressed: () {}),
               ],
             )),
             const SliverToBoxAdapter(
